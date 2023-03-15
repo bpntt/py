@@ -1,6 +1,7 @@
-a = int(input('write int'))
+a = int(input('write int: '))
 a =int(a)
-b =2
-while b < a:
-    b=b*2
-    print(b, end=' ')
+b =0
+while 2 ** b < a:
+        f = 2 **b
+        b+=1
+        print(f, end=' ')
