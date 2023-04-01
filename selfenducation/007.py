@@ -19,7 +19,7 @@ def digts():
 
 def random_list(a,list_1):
     for i in range(a):
-        list_1.append(randint(0,1000))
+        list_1.append(randint(0,20))
         if list_1[i] == 0:
             return print(max(list_1))
         else: 
