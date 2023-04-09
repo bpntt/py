@@ -21,3 +21,4 @@ def random_list(a,list_1):
     for i in range(a):
         list_1.append(randint(-10,10))
 
+digts()
